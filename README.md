@@ -51,8 +51,8 @@ Since its not really a good idea to put your laptop/desktop on a *0.2m^3* robot,
 
 ## 🚀 3. ROS Setup <a name = "ros_setup"></a>
 ROS(Robot Operating System) is a popular framework for building the software for robot now adays, which we will also use it to build our Robot.
-- if you are installing ROS on **Ubuntu 16.04** (Personal PC or Raspberry pi). you can follow [this link](http://wiki.ros.org/kinetic/Installation) to install
-- if you are installing ROS on **Ubuntu 18.04** (Personal PC or Raspberry pi). you can follow [this link](http://wiki.ros.org/melodic/Installation) to install
+- if you are installing ROS on **Ubuntu 16.04** (Personal PC or Raspberry pi). you can follow [this link](doc/ROSinstall.md) to install
+- if you are installing ROS on **Ubuntu 18.04** (Personal PC or Raspberry pi). you can follow [this link](doc/ROSinstall.md) to install
 - if you are installing ROS on **Raspbian** (Raspberry pi). you can follow [this link](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi) to install
 
 ## ✍️ 4. Notes <a name = "notes"></a>
