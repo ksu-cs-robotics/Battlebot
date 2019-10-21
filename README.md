@@ -48,7 +48,17 @@ Since its not really a good idea to put your laptop/desktop on a *0.2m^3* robot,
 
 - Raspberry Pi 3: Please follow [this video]() link to setup your raspberry pi
 - Raspberry Pi 4: Since the offical Ubuntu support for raspberry pi 4 havent come out yet. You can install [Raspbian Buster with desktop](https://www.raspberrypi.org/downloads/raspbian/), the setup process would be the similar as above.
-
+- **DVI type monitor Setup:** 
+  ```
+  sudo nano /boot/config.txt
+  ```
+  ```
+  ### edit these lines ###
+  hdmi_force_hotplug=1
+  hdmi_drive=1
+  hdmi_group=2
+  hdmi_mode=82
+  ```
 ## 🚀 3. ROS Setup <a name = "ros_setup"></a>
 ROS(Robot Operating System) is a popular framework for building the software for robot now adays, which we will also use it to build our Robot.
 - if you are installing ROS on **Ubuntu 16.04** (Personal PC or Raspberry pi). you can follow [this link](doc/ROSinstall.md) to install

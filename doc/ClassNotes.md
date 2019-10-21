@@ -56,3 +56,31 @@ official manual page: http://emanual.robotis.com/docs/en/platform/turtlebot3/sim
     ## check the instruction show up on terminal when you run this code and try to control the robot.
     ```
     
+### 2019/10/20
+**Remote control raspberry pi**
+
+**Raspberry Pi:** 
+
+enable ssh: 
+```
+sudo apt install ssh
+sudo systemctl enable ssh
+sudo systemctl start ssh
+sudo rm /etc/ssh/ssh_host_*
+sudo dpkg-reconfigure openssh-server
+```
+
+**Remote PC:**  
+1. **Ubuntu:** open terminal and install ssh ```sudo apt install ssh```
+
+    **Windows:** [install putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), under "MSI (‘Windows Installer’)" -> "64-bit" -> "putty-64bit-0.73-installer.msi"
+
+2. Generate ssh config file: open terminal (Ubuntu) or CMD (Windows), enter ```ssh remote_PC_username@remote_PC_IP_address``` for example, username for our raspberry pi is atr@cs-ksu, and ip is 192.168.1.31. so you need to use ```ssh atr@192.168.1.31```
+
+3. install **visual studio code**
+
+4. click on **Extensions** on the left side, install "Remote - SSH **(Nightly)**" (this extension work best with "VS Code Insiders", but it is not require to have that, "VS Code" normal version would also work)
+
+5. check out [this tutorial](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
+
+    **Notes:** the IP address of your PC may change when you in a different network. even when you in the same network, IP may also change from time to time
