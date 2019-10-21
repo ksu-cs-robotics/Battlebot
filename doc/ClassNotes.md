@@ -32,7 +32,7 @@
 **Setup your connection with ROS Master:**
 - gedit ~/.bashrc **OR** nano ~/.bashrc
     - Enter these at the Bottom of your ~/.bashrc script:
-        - ```
+        ```
             export ROS_IP=your.ip.address.here
             export ROS_MASTER_URI=http://master.ip.address.here:11311
             export ROS_HOSTNAME=your.ip.address.here
@@ -57,7 +57,7 @@ official manual page: http://emanual.robotis.com/docs/en/platform/turtlebot3/sim
     ```
     
 ### 2019/10/20
-**Remote control raspberry pi**
+**1. Remote control raspberry pi**
 
 **Raspberry Pi:** 
 
@@ -79,8 +79,18 @@ sudo dpkg-reconfigure openssh-server
 
 3. install **visual studio code**
 
-4. click on **Extensions** on the left side, install "Remote - SSH **(Nightly)**" (this extension work best with "VS Code Insiders", but it is not require to have that, "VS Code" normal version would also work)
+4. click on **Extensions** on the left side, install "Remote - SSH **(Nightly)**" (this extension work best with "VS Code Insiders", but it is not required to have that, "VS Code" normal version would also work)
 
 5. check out [this tutorial](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
 
     **Notes:** the IP address of your PC may change when you in a different network. even when you in the same network, IP may also change from time to time
+
+
+**2. Notes on working with Raspberry pi**
+
+1. if raspberry pi freeze or something suppose to work but doesn't work, try **unplug and plug back in**, if that doesn't solve the problem, try **google**
+
+2. when you do ```catkin_make``` on raspberry pi, use ```catkin_make -j2``` instead, **-j2** is gonna force raspberry pi only to use two core of CPU to compile. because raspberry dont have enough computing power, it will easily freeze if you dont use **-j2**
+
+**3. face detection:**
+check out [this library](https://pypi.org/project/face_recognition/)
