@@ -79,10 +79,10 @@ class image_converter:
     cv2.imshow("Image window", frame)
     cv2.waitKey(3)
 
-    # try:
-    #   self.image_pub.publish(self.bridge.cv2_to_imgmsg(frame, "bgr8"))
-    # except CvBridgeError as e:
-    #   print(e)
+    try:
+      self.image_pub.publish(self.bridge.cv2_to_imgmsg(frame, "bgr8"))
+    except CvBridgeError as e:
+      print(e)
 
 def main(args):
   ic = image_converter()
