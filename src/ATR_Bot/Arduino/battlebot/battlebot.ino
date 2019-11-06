@@ -1,9 +1,7 @@
 #include "general.h"
-#include "mpu.h"
 #include "motor_driver.h"
 
 
-MPU6050 mpu;
 Turtlebot3MotorDriver motor_driver;
 
 
