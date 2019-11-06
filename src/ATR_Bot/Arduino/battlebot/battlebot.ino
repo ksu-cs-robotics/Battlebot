@@ -1,7 +1,6 @@
 #include "general.h"
 #include "motor_driver.h"
 
-
 Turtlebot3MotorDriver motor_driver;
 
 

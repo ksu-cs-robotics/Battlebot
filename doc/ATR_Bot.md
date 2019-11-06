@@ -31,7 +31,7 @@
 ## 📝 Software Setup
 Bot base code:
 ```
-sudo apt install ros-[your version of ROS]-turtlebot3* ros-[your version of ROS]-gmapping* ros-[your version of ROS]-depthimage-to-laserscan* ros-[your version of ROS]-ddynamic-reconfigure
+sudo apt install ros-[your version of ROS]-turtlebot3* ros-[your version of ROS]-gmapping* ros-[your version of ROS]-depthimage-to-laserscan* ros-[your version of ROS]-ddynamic-reconfigure libuvc*
 
 ```
 
