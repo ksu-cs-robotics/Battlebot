@@ -28,6 +28,6 @@
         </include>
     </group>
 
-    <node pkg="tf" type="static_transform_publisher" name="robot0_to_world" args="0 0 0 0 0 0 /map /tb3_0/map 20" />
+    <node pkg="tf" type="static_transform_publisher" name="robot0_to_world" args="0 0 0 0 0 0 /map /$(arg first_tb3)/map 20" />
 
 </launch>
