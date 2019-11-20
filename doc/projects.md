@@ -21,6 +21,13 @@
 ## 🏁 Individual Project
 ### The project folder is locate at [HERE](https://github.com/ksu-cs-robotics/Software-Development-for-Robotics/tree/master/src/project_ws)
 
+#### install missing package
+```
+sudo apt install ros-melodic-turtlebot3*
+sudo apt install ros-melodic-dwa-local-planner
+sudo apt install ros-melodic-gmapping
+```
+
 #### commands for launch individual project playground
 launch the gazebo environment with single robot inside
 ```
