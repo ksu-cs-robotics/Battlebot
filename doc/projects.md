@@ -29,6 +29,8 @@ sudo apt install ros-melodic-gmapping
 ```
 
 #### commands for launch individual project playground
+
+##### Personal PC:
 launch the gazebo environment with single robot inside
 ```
 export TURTLEBOT3_MODEL=waffle_pi
@@ -39,6 +41,8 @@ launch autonomous driving package
 export TURTLEBOT3_MODEL=waffle_pi
 roslaunch project_navigation single_AmclStack.launch
 ```
+
+##### Raspberry pi:
 launch rviz for autonomous driving and visualize
 ```
 roslaunch project_navigation rviz_single_robot.launch
