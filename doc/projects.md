@@ -19,6 +19,9 @@
 </p>
 
 ## 🏁 Individual Project
+
+### Simulation:
+
 ### The project folder is locate at [HERE](https://github.com/ksu-cs-robotics/Software-Development-for-Robotics/tree/master/src/project_ws)
 
 #### install missing package
@@ -53,6 +56,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=tb3_0/cmd_vel
 ```
 
 ### Goal:
+
 1. change all topic name from **/tb3_0/TOPIC_NAME** to **/YOUR_NAME/TOPIC_NAME** (for example: /tb3_0/odom to /shawn/odom)
 
     (hint: look into how **group** tag work and how **prefix** work in ROS)
@@ -71,3 +75,6 @@ when there is no color in the middle of your screen
 
 when there are colors in the middle of your screen
 <img src="https://raw.githubusercontent.com/ksu-cs-robotics/Software-Development-for-Robotics/master/resources/images/found.png" alt="found">
+
+### Physcial Robot:
+make sure you are able to use teleop to control robot, see document [**HERE**](https://github.com/ksu-cs-robotics/Software-Development-for-Robotics/blob/master/doc/ATR_Bot.md)
