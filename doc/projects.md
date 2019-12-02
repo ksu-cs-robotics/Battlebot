@@ -78,3 +78,11 @@ when there are colors in the middle of your screen
 
 ### Physcial Robot:
 make sure you are able to use teleop to control robot, see document [**HERE**](https://github.com/ksu-cs-robotics/Software-Development-for-Robotics/blob/master/doc/ATR_Bot.md)
+
+## ✍️ Group Project
+1. randomly spawn robot from location (1-3)
+2. autonomous moving robot from location start to end
+3. detecting color on the way
+4. stop at "STOP" and detect the real size of selected color (ex: 10*20 cm)
+
+<img src="https://raw.githubusercontent.com/ksu-cs-robotics/Software-Development-for-Robotics/master/resources/images/group_project.jpg" alt="group_project">
